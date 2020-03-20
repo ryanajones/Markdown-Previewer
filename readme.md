@@ -1,6 +1,6 @@
 # Markdown Previewer
 
-You can use this app to preivew your markdown code while you write it. This app uses reactJS.
+You can use this app to preview your markdown code results while you write it. This app uses reactJS.
 
 ### CodePen Link
 
