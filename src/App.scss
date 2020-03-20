@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Russo+One&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 *,
 *:before,
 *:after {
   box-sizing: border-box;
 }
 
-/* body {
-  margin: 5px 0;
-} */
+body {
+  background: #8db5b7;
+}
+
 .toolbar {
   position: relative;
   display: flex;
@@ -27,7 +28,7 @@
     span {
       position: relative;
       left: 20px;
-      font-family: 'Russo One', Arial, Helvetica, sans-serif;
+      font-family: "Russo One", Arial, Helvetica, sans-serif;
       font-weight: 400;
     }
   }
@@ -48,11 +49,7 @@
   width: 600px;
   height: 250px;
   margin: 20px auto;
-  /* 
-  .toolbar{
-  
-  }
- */
+
   #editorTextarea {
     height: 100%;
     width: 100%;
@@ -74,6 +71,7 @@
 
   .toolbar {
     margin-bottom: -21px;
+    text-transform: bold;
   }
 
   #preview {

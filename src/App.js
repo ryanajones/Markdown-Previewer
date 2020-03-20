@@ -1,7 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAnchor } from '@fortawesome/free-solid-svg-icons';
-import { faExpandArrowsAlt } from '@fortawesome/free-solid-svg-icons';
 import './App.scss';
 
 const marked = require('marked');
@@ -34,7 +31,6 @@ class App extends React.Component {
       previewerMaximized: !this.state.previewerMaximized
     })
   }
-
 
   render() {
     const classes = this.state.editorMaximized?
@@ -79,7 +75,7 @@ class App extends React.Component {
 const Toolbar = (props) => {
   return (
     <div className="toolbar"> 
-      <i className="fas fa-anchor"><span>{props.text}</span></i>
+      <i className="fa fa-anchor"><span>{props.text}</span></i>
       <i onClick={props.onClick} className={props.icon}></i>
     </div>
   );
@@ -150,4 +146,4 @@ And here. | Okay. | I think we get it.
 ![React Logo w/ Text](https://goo.gl/Umyytc)
 `
 export default App;
-++
+
