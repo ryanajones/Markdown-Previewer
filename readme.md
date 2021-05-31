@@ -1,6 +1,6 @@
 # Markdown Previewer
 
-You can use this app to preview your markdown code results while you write it. This app uses reactJS.
+> This application supplies a text editor interface to dynamically display Markdown code results live as it written. The ReactJS library is used for its virtual DOM and state management features to acheive this conversion efficiently.
 
 ## CodePen Link
 
