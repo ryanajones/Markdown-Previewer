@@ -1,10 +1,10 @@
 # Markdown Previewer
 
-> This application supplies a text editor interface to dynamically display Markdown code results live as it written. The ReactJS library is used for its virtual DOM and state management features to acheive this conversion efficiently.
+> This application supplies a text editor view to dynamically display Markdown code results live as it written. React's state management and virtual DOM features help by fluidly converting the Markdown code and rendering it to the UI. State management is also used to store whether the text editor is minimized or maximized in order to diplay the correct size text editor.
 
 ## Technologies Used
 
-HTML CSS JavaScript ReactJS
+HTML CSS JavaScript React
 
 ## CodePen Link
 
